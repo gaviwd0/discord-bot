@@ -1,0 +1,31 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "moviendo las manos con discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaviwd0/discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gaviwd0/discord-bot/issues"
+  },
+  "homepage": "https://github.com/gaviwd0/discord-bot#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  }
+}
